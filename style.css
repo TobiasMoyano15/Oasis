@@ -2,8 +2,6 @@
 body{
     background-color: rgb(78, 9, 9);color: white;font-family: 'Archivo Narrow', sans-serif;
     font-family: 'Prompt', sans-serif;
-    
-
 }
 header{
     grid-area: header ;text-align: center;
@@ -33,20 +31,63 @@ footer{
         display: flex;flex-direction: column;
     }
 }
-nav a{
-    margin-left: 90vw;
+nav {
+    display: flex;justify-content: flex-end;flex-direction: row;
 }
+a{
+    margin-left: 5px;margin-bottom: 10px;
+}
+/* discografia */
 *
 body_discografia{
     background-color: rgb(78, 9, 9);font-family: 'Archivo Narrow', sans-serif;
     font-family: 'Prompt', sans-serif;
 }
+nav {
+    display: flex;justify-content: flex-end;flex-direction: row;
+}
+a{
+    margin-left: 5px;margin-bottom: 10px;
+}
 iframe{
     margin-bottom: 10px;
 }
-@media (max-width: 650px){
+@media (max-width: 650px)
+{
     main_discogrfia{
         display: flex;flex-direction: column;
     }
-
 }
+
+/* conciertos */
+#body_conciertos main{
+    text-align: center;display: grid;grid-template-columns: 1fr;
+}
+#body_conciertos main iframe{
+    margin-left: 30vw;
+}
+#body_conciertos footer{
+    display: flex;flex-direction: column;
+}
+
+/* Disputa */
+#body_disputa{
+    background-color: rgb(78, 9, 9);font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+#body_disputa main {
+    display: grid; grid-template-columns: 70vw 30vw
+}
+
+/* Separacion */
+#body_separacion {
+    background-color: rgb(78, 9, 9);font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+#body_separacion main{
+display: grid;grid-template-columns: 1fr;
+}
+#body_separacion main img{
+    margin-left: 25vw;
+}
+
