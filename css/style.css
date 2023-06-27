@@ -58,7 +58,6 @@ iframe{
         display: flex;flex-direction: column;
     }
 }
-
 /* conciertos */
 #body_conciertos main{
     text-align: center;display: grid;grid-template-columns: 1fr;
