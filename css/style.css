@@ -1,16 +1,48 @@
-#body_index{
-    background-color: rgb(78, 9, 9);color: white;font-family: 'Archivo Narrow', sans-serif;
+/* Index */
+#body_index {
+    background-color: rgb(78, 9, 9);
+    color: white;
+    font-family: 'Archivo Narrow', sans-serif;
     font-family: 'Prompt', sans-serif;
 }
-#body_index h1{
+
+#body_index h1 {
     text-align: center;
 }
-#body_index main section{
+
+#body_index main section {
     justify-content: space-around;
 }
-#body_index main ol{
+
+#body_index main ol {
     list-style: none;
 }
-#body_index footer ul{
-    list-style: none;display: flex;flex-direction: row;justify-content: space-evenly;
+
+#body_index footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* Discografia */
+#body_discografia {
+    background-color: rgb(78, 9, 9);
+    color: white;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+
+#body_discografia header {
+    text-align: center;
+}
+
+#body_discografia main section {
+    margin-top: 20px;
+}
+#body_discografia footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
