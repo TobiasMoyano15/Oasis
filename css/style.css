@@ -40,7 +40,81 @@
 #body_discografia main section {
     margin-top: 20px;
 }
+
 #body_discografia footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* Conciertos */
+#body_conciertos {
+    background-color: rgb(78, 9, 9);
+    color: white;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+
+#body_conciertos h1 {
+    text-align: center;
+}
+
+#body_conciertos footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#body_conciertos footer a {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Disputa */
+#body_disputa {
+    background-color: rgb(78, 9, 9);
+    color: white;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+
+#body_disputa h1 {
+    text-align: center;
+}
+
+#body_disputa main section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#body_disputa footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* Separacion */
+#body_separacion {
+    background-color: rgb(78, 9, 9);
+    color: white;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Prompt', sans-serif
+}
+
+#body_separacion h1 {
+    text-align: center;
+}
+
+#body_separacion main nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#body_separacion footer ul {
     list-style: none;
     display: flex;
     flex-direction: row;
