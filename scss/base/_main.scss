@@ -1,0 +1,34 @@
+#body_index{
+    main{
+        section {
+            justify-content: space-around;
+        }
+        ol {
+            list-style: none;
+        }
+    }
+};
+#body_discografia{
+    main{
+        section{
+            margin-top: 20px;
+        }
+    }
+}
+#body_disputa{
+    main{
+        section{
+            margin-top: 10px;
+    margin-bottom: 10px;
+        }
+    }
+}
+#body_separacion{
+    main{
+        div{
+            display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+        }
+    }
+}
