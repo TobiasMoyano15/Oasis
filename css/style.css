@@ -1,11 +1,7 @@
-body {
-  background-color: rgb(143, 26, 26);
-  color: white;
-  font-family: "Archivo Narrow", sans-serif;
-  font-family: "Prompt", sans-serif;
-}
-body h1 {
-  text-align: center;
+#body_separacion main div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 footer ul {
@@ -13,6 +9,15 @@ footer ul {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+body {
+  background-color: rgb(143, 26, 26);
+  color: white;
+  font-family: "Prompt", sans-serif;
+}
+body h1 {
+  text-align: center;
 }
 
 #body_conciertos a {
@@ -28,18 +33,12 @@ footer ul {
 }
 
 #body_discografia main section {
-  margin-top: 20px;
+  margin-top: true;
 }
 
 #body_disputa main section {
-  margin-top: 10px;
+  margin-top: true;
   margin-bottom: 10px;
-}
-
-#body_separacion main div {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
 }
 
 /*# sourceMappingURL=style.css.map */

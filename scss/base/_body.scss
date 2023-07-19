@@ -1,8 +1,7 @@
 body{
- background-color:  rgb(143,26,26);
+ background-color: $clr_body;
     color: white;
-    font-family: 'Archivo Narrow', sans-serif;
-    font-family: 'Prompt', sans-serif;
+    font-family: $letra;
     h1{
         text-align: center;
     }

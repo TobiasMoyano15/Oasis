@@ -1,0 +1,12 @@
+%div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+%ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+

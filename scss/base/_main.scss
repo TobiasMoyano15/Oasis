@@ -11,14 +11,14 @@
 #body_discografia{
     main{
         section{
-            margin-top: 20px;
+            margin-top: map-has-key($map: $margin-t, $key:marg-t1 );
         }
     }
 }
 #body_disputa{
     main{
         section{
-            margin-top: 10px;
+            margin-top: map-has-key($map: $margin-t, $key:marg-t2 );
     margin-bottom: 10px;
         }
     }
@@ -26,9 +26,7 @@
 #body_separacion{
     main{
         div{
-            display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+            @extend %div
         }
     }
 }
