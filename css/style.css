@@ -14,7 +14,8 @@ footer ul {
 body {
   background-color: rgb(143, 26, 26);
   color: white;
-  font-family: "Prompt", sans-serif;
+  font-family: "Roboto";
+  font-size: 18px;
 }
 body h1 {
   text-align: center;
